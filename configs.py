@@ -3,7 +3,7 @@
 import os
 
 
-class Config(object):
+class Config:
 	API_ID = int(os.environ.get("API_ID", "22466557"))
 	API_HASH = os.environ.get("020e8aa708282ed9b5210d84ba374736")
 	BOT_TOKEN = os.environ.get("7136288796:AAH6CWn7TIVxR8F7TUxVlrkxRIiQI606NXk")
