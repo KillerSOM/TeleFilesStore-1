@@ -76,4 +76,4 @@ class Database:
         return banned_users
 
 
-db = Database(Config.DATABASE_URL, Config.BOT_USERNAME)
+db = Database(mongodb+srv://killersom72:<password>@sanjifilestore.x6rhkdi.mongodb.net/?retryWrites=true&w=majority&appName=SanjiFileStore, Sanji_Test_Robot)
